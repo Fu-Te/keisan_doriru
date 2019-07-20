@@ -16,7 +16,7 @@ void mondaisuu(){
 		scanf_flag=scanf("%d",&global);
 		if(scanf_flag!=1 || global>1000 || global<1){
 			if (scanf_flag!=1)scanf("%*s");
-			printf("正しい値を入力してください。\n");
+			printf("1000以下の数を入力してください。\n");
 			continue;
 		}
 		break;
